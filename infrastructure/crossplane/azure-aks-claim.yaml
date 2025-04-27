@@ -1,0 +1,11 @@
+apiVersion: azure.platformref.crossplane.io/v1alpha1
+kind: Cluster
+metadata:
+  name: demo-aks-cluster
+spec:
+  id: demo-aks
+  parameters:
+    location: eastus
+    version: "1.29"
+    nodeCount: 2
+    nodeSize: Standard_DS2_v2

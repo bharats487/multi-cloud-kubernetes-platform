@@ -1,0 +1,11 @@
+apiVersion: aws.platformref.crossplane.io/v1alpha1
+kind: Cluster
+metadata:
+  name: demo-eks-cluster
+spec:
+  id: demo-eks
+  parameters:
+    region: us-east-1
+    version: "1.29"
+    nodeCount: 2
+    nodeSize: t3.medium

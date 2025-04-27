@@ -1,0 +1,25 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Kubernetes configs
+*.kubeconfig
+
+# Helm
+charts/
+
+# Sensitive files
+*.env
+*.secret
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Mac/Windows
+.DS_Store
+Thumbs.db

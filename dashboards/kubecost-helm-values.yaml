@@ -1,0 +1,6 @@
+kubecostToken: "<GENERATE_A_SECURE_TOKEN>"
+prometheus:
+  kubeStateMetrics:
+    enabled: true
+  nodeExporter:
+    enabled: true

@@ -1,0 +1,6 @@
+# Python requirements for automation scripts (if needed)
+boto3
+google-cloud-container
+azure-mgmt-containerservice
+kubernetes
+python-dotenv

@@ -1,0 +1,12 @@
+provider: aws
+aws:
+  region: us-east-1
+  zoneType: public
+  accessKey: "<YOUR_AWS_ACCESS_KEY>"
+  secretKey: "<YOUR_AWS_SECRET_KEY>"
+domainFilters:
+  - "yourdomain.com"
+policy: sync
+sources:
+  - service
+  - ingress
