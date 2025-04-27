@@ -6,6 +6,30 @@
 
 ---
 
+## About the Project
+
+The **Multi-Cloud Kubernetes Platform** is a modular, production-ready framework for deploying and managing Kubernetes workloads across AWS, GCP, and Azure. It combines the power of Terraform, Crossplane, Helm, and ArgoCD to enable:
+
+- **Automated, repeatable cluster provisioning** using Infrastructure-as-Code (Terraform/Crossplane) for EKS, GKE, and AKS.
+- **GitOps-driven application delivery** with Helm and ArgoCD for consistent, auditable, and self-healing deployments.
+- **Multi-cloud load balancing** using ExternalDNS for DNS-based routing and Istio for advanced service mesh capabilities.
+- **Disaster recovery** with Velero for backup, restore, and migration of Kubernetes resources and persistent volumes.
+- **Cost optimization dashboards** with Kubecost, providing visibility and actionable insights into multi-cloud Kubernetes spend.
+
+The platform is designed for organizations seeking high availability, resilience, and cloud-agnostic operations. All infrastructure and application changes are tracked in Git, making it easy to audit, roll back, and collaborate.
+
+---
+
+## Project Structure
+
+- **infrastructure/**: Terraform and Crossplane manifests for cluster provisioning.
+- **clusters/**: Kubernetes configs, DNS/load balancing, DR, and service mesh examples.
+- **apps/**: Helm charts and ArgoCD manifests for app deployment.
+- **scripts/**: Automation scripts for cluster and app management.
+- **dashboards/**: Cost dashboards and monitoring configs.
+
+---
+
 ## Complete Description
 
 The Multi-Cloud Kubernetes Platform is a comprehensive, production-ready framework for provisioning, deploying, and managing cloud-native applications across multiple cloud providers (AWS, GCP, Azure). It leverages the best open-source tools and practices for:
